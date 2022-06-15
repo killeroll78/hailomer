@@ -1,0 +1,1 @@
+SELECT student_placement_form.student_ID FROM student_placement_form INNER JOIN report_table ON(student_placement_form.student_ID) WHERE student_placement_form.student_ID NOT IN(SELECT student_ID FROM result_table) GROUP BY(student_ID)ORDER BY total;
