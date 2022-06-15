@@ -1,0 +1,117 @@
+ /* body { 
+     font-family:Arial, Sans-Serif;
+     
+     background-image: url('wollega.jpeg');
+     background-position: auto;
+     background-size: 100%;
+     background-origin: center;
+
+} */
+.page-banner {
+     position: relative;
+     height: 300px;
+     z-index: 1; 
+   }
+   
+   .page-hero.overlay-dark::before,
+   .page-banner.overlay-dark::before {
+     content: "";
+     position: auto;
+     top: 0;
+     left: 0;
+     width: 50%;
+     height: 100%;
+     background: rgba(52, 53, 49, 0.7);
+     z-index: 1;
+   }
+   
+   .page-banner .breadcrumb-item,
+   .page-banner .breadcrumb-item a {
+     font-size: 14px;
+   }
+   
+   .hero-section,
+   .banner-section {
+     position: relative;
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-align: center;
+     align-items: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     height: 100%;
+     color: #ffffff;
+     z-index: 10;
+   }
+h6{
+     text-decoration: none;
+     
+}
+a{
+     text-decoration: none;
+}
+/* head{
+     font-family: Arial, sans-serif;
+     background-image: url('wollega.jpeg');
+} */
+.clearfix:before, .clearfix:after{
+     content: "";
+     display: table;
+}
+.clearfix:after{
+     clear: both;
+}
+a{
+     color:#0067ab;
+     text-decoration:none;
+}
+a:hover{
+     text-decoration:underline;
+}
+.form{
+     width: 300px;
+     margin: 0 auto;
+}
+input[type='text'], input[type='email'],
+input[type='password'] {
+     width: 200px;
+     border-radius: 2px;
+     border: 1px solid #CCC;
+     padding: 10px;
+     color: #333;
+     font-size: 14px;
+     margin-top: 10px;
+}
+input[type='submit']{
+     padding: 10px 25px 8px;
+     color: #fff;
+     background-color:   #e7d03a;
+     text-shadow: rgba(231,208,58,0.24) 0 1px 0;
+     font-size: 16px;
+     box-shadow: rgba(231,208,58,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0;
+     border: 1px solid  #e7d03a; 
+     border-radius: 2px;
+     margin-top: 10px;
+     cursor:pointer;
+}
+input[type='submit']:hover {
+     background-color: f0df74;
+}
+label{
+     width: 200px;
+     border-radius: 2px;
+     border: 1px solid #CCC;
+     padding: 10px;
+     color: #333;
+     font-size: 14px;
+     margin-top: 10px;
+}
+label select {
+     width: 200px;
+     border-radius: 2px;
+     border: 1px solid #CCC;
+     padding: 10px;
+     color: #333;
+     font-size: 14px;
+     margin-top: 10px;
+}
